@@ -1,0 +1,113 @@
+.back {
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1730 832" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M212.296 49.5301C148.151 70.5142 105.086 78.0129 60.6852 127.645C13.7649 180.094 1.68017 227.5 0.141084 297.344C-2.02739 395.749 20.9214 451.967 60.6852 542.014C95.2589 620.309 114.743 669.6 178.271 726.976C320.831 855.733 476.684 756.158 668.128 772.768C894.809 792.436 1026.18 860.577 1249.05 818.56C1425.7 785.256 1567.4 776.984 1667.36 642.127C1751.25 528.948 1729.92 433.24 1720.39 297.344C1713.84 203.743 1730.81 137.021 1667.36 62.9984C1560.28 -61.908 1394.45 38.8262 1219.03 31.1239C934.861 18.6468 774.682 17.5342 490.498 31.1239C381.74 36.3248 314.645 16.0481 212.296 49.5301Z" fill="url(%23paint0_linear_1191_22766)" fill-opacity="0.2"/><defs><linearGradient id="paint0_linear_1191_22766" x1="1838.99" y1="440.501" x2="-0.816125" y2="338.411" gradientUnits="userSpaceOnUse"><stop offset="0.0509137" stop-color="%235A973E"/><stop offset="1" stop-color="%2322A6DC"/></linearGradient></defs></svg>');
+  background-repeat: no-repeat;
+}
+
+.intro {
+  margin: 10vh 15vw;
+  display: grid;
+  grid-template: auto auto / auto auto;
+}
+
+.intro .title {
+  font-family: Arial Black;
+  font-size: 40px;
+  text-align: justify;
+  grid-area: 1;
+  color: #515CB0;
+}
+
+.intro .text {
+  font-family: Arial;
+  margin-right: 10vw;
+  font-size: 17px;
+  grid-area: 2;
+}
+
+.eco_img {
+  height: 50vh;
+  grid-row: 1 / -1;
+}
+
+.menu {
+  font-family: Arial;
+  font-size: 35px;
+  display: grid;
+  background: white;
+  grid-template-columns: repeat(3, auto);
+  text-align: center;
+  position: sticky; left: 8vw; top: 0vh;
+}
+
+.link {
+  color: #08457e;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s, color .3s;
+}
+
+.link:visited {
+  color: #08457e;
+}
+
+.link:hover {
+  background-size: 70% 3px;
+  color: #0d79de;
+}
+
+.lessons_title {
+  font-family: Arial Black;
+  color: #515CB0;
+  font-size: 25px;
+  text-align: center;
+  margin: auto 15vw;
+}
+
+.lesson {
+  font-family: Arial;
+}
+
+.lesson_img {
+  border: solid 2px #515CB0;
+  border-radius: 30px;
+  width: 32vw;
+}
+
+.lesson_background {
+  padding: 1vw;
+  width: 32vw;
+  border-radius: 30px;
+  transition: background .3s;
+}
+
+.lesson_link {
+  color: #515CB0;
+  font-size: 16px;
+  padding-top: 8px;
+  text-decoration: none;
+}
+
+.signature {
+  font-size: 23px;
+  font-family: Arial Black;
+  color: #08457e;
+}
+
+.lesson_background:hover {
+  background: #aafa;
+}
+
+.svg {
+  height: 16px;
+}
+
+.lessons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 3vh 15vw;
+}
