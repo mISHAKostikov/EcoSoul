@@ -1,0 +1,82 @@
+.menu {
+  font-family: Arial;
+  font-size: 35px;
+  display: grid;
+  background: white;
+  grid-template-columns: repeat(3, auto);
+  text-align: center;
+  position: revert; left: 8vw; top: 0vh;
+}
+
+.link {
+  color: #08457e;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s, color .3s;
+}
+
+.link:visited {
+  color: #08457e;
+}
+
+.link:hover {
+  background-size: 70% 3px;
+  color: #0d79de;
+}
+
+.lessons_title {
+  font-family: Arial Black;
+  color: #515CB0;
+  font-size: 25px;
+  text-align: center;
+  margin: auto 15vw;
+}
+
+.lesson {
+  font-family: Arial;
+}
+
+.lesson_img {
+  border: solid 2px #515CB0;
+  border-radius: 30px;
+  width: 32vw;
+}
+
+.lesson_background {
+  padding: 1vw;
+  width: 32vw;
+  border-radius: 30px;
+  transition: background .3s;
+}
+
+.lesson_link {
+  color: #515CB0;
+  font-size: 16px;
+  padding-top: 8px;
+  text-decoration: none;
+}
+
+.signature {
+  font-size: 23px;
+  font-family: Arial Black;
+  color: #08457e;
+}
+
+.lesson_background:hover {
+  background: #aafa;
+}
+
+.svg {
+  height: 16px;
+}
+
+.lessons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 3vh 15vw;
+}
